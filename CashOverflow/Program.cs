@@ -3,6 +3,7 @@
 // Developed by CashOverflow Team
 //=================================
 
+using CashOverflow.Brokers.Storages;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
