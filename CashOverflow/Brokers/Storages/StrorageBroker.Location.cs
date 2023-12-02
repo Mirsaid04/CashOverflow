@@ -10,6 +10,6 @@ namespace CashOverflow.Brokers.Storages
 {
     public partial class StrorageBroker
     {
-        DbSet<Location> locations { get; set; }
+        public DbSet<Location> locations { get; set; }
     }
 }

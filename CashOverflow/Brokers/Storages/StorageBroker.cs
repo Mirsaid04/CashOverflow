@@ -21,9 +21,10 @@ namespace CashOverflow.Brokers.Storages
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Server=(localdb)\\MSSQLLocalDB;Database = AllModelsDb;Trusted_Connection = True; ";
-
+            string connectionString = "Data source = CashOverflow.db";
+            optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             optionsBuilder.UseSqlServer(connectionString);
         }
+        public override void Dispose() { }
     }
 }
