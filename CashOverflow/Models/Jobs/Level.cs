@@ -3,9 +3,13 @@
 // Developed by CashOverflow Team
 //=================================
 
-namespace CashOverflow.Brokers.Storages
+namespace CashOverflow.Models.Jobs
 {
-    public partial interface IStorageBroker
-
-    { }
+    public enum Level
+    {
+        Other,
+        Junior,
+        Middle,
+        Senior
+    }
 }
