@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/CashOverflow/Migrations/20231203121049_AddCountriesTable.cs
+/CashOverflow/Migrations/20231203121049_AddCountriesTable.cs
+/CashOverflow/Migrations/20231203121049_AddCountriesTable.cs
+/CashOverflow/Migrations/20231203121049_AddCountriesTable.cs

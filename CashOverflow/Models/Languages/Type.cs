@@ -3,9 +3,13 @@
 // Developed by CashOverflow Team
 //=================================
 
-namespace CashOverflow.Brokers.Storages
+namespace CashOverflow.Models.Languages
 {
-    public partial interface IStorageBroker
-
-    { }
+    public enum Type
+    {
+        Other,
+        Frontend,
+        Backend,
+        FullStack
+    }
 }
